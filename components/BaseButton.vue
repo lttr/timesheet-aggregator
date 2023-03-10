@@ -4,7 +4,7 @@ const abc = ref("a")
 </script>
 
 <template>
-	<button class="button">
+	<button class="button" :class="abc">
 		<slot />
 	</button>
 </template>

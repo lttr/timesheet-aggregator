@@ -1,9 +1,11 @@
 <script lang="ts" setup></script>
 
 <template>
-	<h1 class="heading">Timesheet aggregator</h1>
-	<NuxtLink to="/timesheets"> Timesheets </NuxtLink>
-	<BaseButton>Foo</BaseButton>
+	<div>
+		<h1 class="heading">Timesheet aggregator</h1>
+		<NuxtLink to="/timesheets"> Timesheets </NuxtLink>
+		<BaseButton>Foo</BaseButton>
+	</div>
 </template>
 
 <style scoped>

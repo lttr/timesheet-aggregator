@@ -7,6 +7,8 @@ useHead({
 </script>
 
 <template>
-	<h2>Timesheets</h2>
-	<p>{{ data.foo }}</p>
+	<div>
+		<h2>Timesheets</h2>
+		<p>{{ data.foo }}</p>
+	</div>
 </template>
