@@ -4,6 +4,10 @@ const data = useData()
 useHead({
 	title: `abc`,
 })
+
+definePageMeta({
+	middleware: ["auth"],
+})
 </script>
 
 <template>

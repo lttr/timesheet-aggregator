@@ -5,6 +5,7 @@
 		<h1 class="heading">Timesheet aggregator</h1>
 		<NuxtLink to="/timesheets"> Timesheets </NuxtLink>
 		<BaseButton>Foo</BaseButton>
+		<UserCard />
 	</div>
 </template>
 
