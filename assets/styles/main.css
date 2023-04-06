@@ -1,0 +1,7 @@
+@import url("open-props/style");
+@import url("open-props/normalize");
+@import url("open-props/buttons");
+
+:root {
+	--my-var: "abc";
+}
