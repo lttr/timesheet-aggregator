@@ -5,7 +5,7 @@
 </template>
 
 <style>
-@import "open-props/style";
-@import "open-props/normalize";
-@import "open-props/buttons";
+@import url("open-props/style");
+@import url("open-props/normalize");
+@import url("open-props/buttons");
 </style>
