@@ -3,7 +3,17 @@
 	"overrides": [
 		{
 			"files": ["**/*.vue"],
-			"extends": "stylelint-config-recommended-vue"
+			"extends": "stylelint-config-standard-vue"
 		}
-	]
+	],
+	"rules": {
+		"selector-pseudo-class-no-unknown": [
+			true,
+			{
+				"ignorePseudoClasses": ["deep", "slotted"]
+			}
+		],
+		"color-hex-length": null,
+		"no-descending-specificity": null
+	}
 }

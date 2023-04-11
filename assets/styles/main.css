@@ -3,5 +3,8 @@
 @import url("open-props/buttons");
 
 :root {
+	font-size: calc(12 + 3);
+
+	/* asdf */
 	--my-var: "abc";
 }

@@ -7,8 +7,8 @@
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
 		"lint": "eslint .",
-		"format": "prettier --write --list-different .",
 		"lint:styles": "stylelint '**/*.{css,vue}'",
+		"format": "prettier --write --list-different .",
 		"lint-staged": "lint-staged --concurrent false",
 		"prepare": "husky install"
 	},
