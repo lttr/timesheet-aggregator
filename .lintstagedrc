@@ -1,5 +1,5 @@
 {
-  "*.{js,ts,vue,gql,json,yml,mjs,css,scss,md}": "prettier --write",
-  "*.{js,ts,vue,gql}": "eslint --fix",
-  "*.{css,vue}": "stylelint --fix"
+	"*.{js,ts,vue,gql,json,yml,mjs,css,scss,md}": "prettier --write",
+	"*.{js,ts,vue,gql}": "eslint --fix",
+	"*.{css,vue}": "stylelint --fix"
 }
